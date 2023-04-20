@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionFranca.Web", "GestionFranca.Web\GestionFranca.Web.csproj", "{79CB0929-C47C-4801-8DE7-0597B0F4B60E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionFranca.DAL", "GestionFranca.DAL\GestionFranca.DAL.csproj", "{E9CA05EB-BBA4-4C40-BC94-891EB9259317}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionFranca.BLL", "GestionFranca.BLL\GestionFranca.BLL.csproj", "{5335D70F-F0D3-4B7B-B33F-A4ED323FF299}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{4F08A20F-4723-4F53-A6F8-5AB645700F59}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{29E6B943-D206-479C-A7D4-59399967777E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDL-Version1.0.0", "DDL-Version1.0.0", "{E8004A8F-B692-431D-B615-EB4245B632F6}"
+	ProjectSection(SolutionItems) = preProject
+		D:\Pruebas Tecnicas\Pruebas Gestion Franca\SQLQueryCreateDatabase and Table.sql = D:\Pruebas Tecnicas\Pruebas Gestion Franca\SQLQueryCreateDatabase and Table.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Create", "Create", "{EAF0ED05-B188-4EFE-92BA-75D5C7596499}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagram", "Diagram", "{504DF5D0-0E63-457B-B21B-BBAB5424E36E}"
+	ProjectSection(SolutionItems) = preProject
+		D:\Pruebas Tecnicas\Pruebas Gestion Franca\GestionFrancaDiagram.jpg = D:\Pruebas Tecnicas\Pruebas Gestion Franca\GestionFrancaDiagram.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79CB0929-C47C-4801-8DE7-0597B0F4B60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CB0929-C47C-4801-8DE7-0597B0F4B60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CB0929-C47C-4801-8DE7-0597B0F4B60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CB0929-C47C-4801-8DE7-0597B0F4B60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9CA05EB-BBA4-4C40-BC94-891EB9259317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9CA05EB-BBA4-4C40-BC94-891EB9259317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9CA05EB-BBA4-4C40-BC94-891EB9259317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9CA05EB-BBA4-4C40-BC94-891EB9259317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5335D70F-F0D3-4B7B-B33F-A4ED323FF299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5335D70F-F0D3-4B7B-B33F-A4ED323FF299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5335D70F-F0D3-4B7B-B33F-A4ED323FF299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5335D70F-F0D3-4B7B-B33F-A4ED323FF299}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8004A8F-B692-431D-B615-EB4245B632F6} = {EAF0ED05-B188-4EFE-92BA-75D5C7596499}
+		{EAF0ED05-B188-4EFE-92BA-75D5C7596499} = {29E6B943-D206-479C-A7D4-59399967777E}
+		{504DF5D0-0E63-457B-B21B-BBAB5424E36E} = {29E6B943-D206-479C-A7D4-59399967777E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B1B7E08-1703-475F-A4E1-348B6382DC65}
+	EndGlobalSection
+EndGlobal
